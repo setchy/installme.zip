@@ -6,7 +6,7 @@ workflows:
     '.github/workflows/static.yml':
         - 'actions/checkout@v7.0.1'
         - 'actions/configure-pages@v6.0.0'
-        - 'actions/deploy-pages@v2.0.5'
+        - 'actions/deploy-pages@v3.0.1'
         - 'actions/upload-pages-artifact@v5.0.0'
 dependencies:
     'actions/checkout@v7.0.1':
@@ -19,9 +19,9 @@ dependencies:
         commit: 'sha1-45bfe0192ca1faeb007ade9deae92b16b8254a0d'
         owner_id: 44036562
         repo_id: 513659658
-    'actions/deploy-pages@v2.0.5':
-        ref: 'v2.0.5'
-        commit: 'sha1-de14547edc9944350dc0481aa5b7afb08e75f254'
+    'actions/deploy-pages@v3.0.1':
+        ref: 'v3.0.1'
+        commit: 'sha1-13b55b33dd8996121833dbc1db458c793a334630'
         owner_id: 44036562
         repo_id: 438112499
     'actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f':
