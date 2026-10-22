@@ -7,7 +7,7 @@ workflows:
         - 'actions/checkout@v3.7.0'
         - 'actions/configure-pages@v3.0.7'
         - 'actions/deploy-pages@v2.0.5'
-        - 'actions/upload-pages-artifact@v1.0.10'
+        - 'actions/upload-pages-artifact@v2.0.0'
 dependencies:
     'actions/checkout@v3.7.0':
         ref: 'v3.7.0'
@@ -29,9 +29,9 @@ dependencies:
         commit: 'sha1-ff15f0306b3f739f7b6fd43fb5d26cd321bd4de5'
         owner_id: 44036562
         repo_id: 192625955
-    'actions/upload-pages-artifact@v1.0.10':
-        ref: 'v1.0.10'
-        commit: 'sha1-84bb4cd4b733d5c320c9c9cfbc354937524f4d64'
+    'actions/upload-pages-artifact@v2.0.0':
+        ref: 'v2.0.0'
+        commit: 'sha1-a753861a5debcf57bf8b404356158c8e1e33150c'
         owner_id: 44036562
         repo_id: 496012378
         uses:
